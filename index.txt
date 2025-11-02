@@ -1,0 +1,34 @@
+node js problem :- node js everytime fetch all data if no need all data then already fetch all data this is the issue in REST api 
+
+Graphql is problem ko solve karta hai apko jo data chhaoye wahi return kare ga graphql isliye hum use karte hai ghaphql ko 
+todos{
+    title,
+    id
+}
+
+is se humare faltu ka data nhi aata hai jesse bandwith kam use hoga 
+
+
+nested querry :-
+
+todos{
+    title,
+    user{
+        name
+    }
+}
+
+output is very simple only title and user ka name aaye ga is se fayda ye hoga ke bandwith nhi lage ga jayda and fast v hoga humare application 
+
+GRAPHQL 
+
+ graphql ke ander do chej hota hai queries, and muatation
+
+
+Queries :- hum kuch v queries krna hai data base se to quries kare ga 
+ muatation :- agar hume kuch v add krna hai, data bana hai to wo muatation kare gaa
+
+ hum muatation and queries ke ander schema dete hai ye data base ka schema nhi hai ye graphql ka schema hota hai
+
+ Resolvers :- queries and Muatation ke seperate Resolvers hote , resolver wo actual code hota hai jo humare code ko run karta hai
+ 
